@@ -1,0 +1,23 @@
+@import "/src/Common/Color.scss";
+
+
+.Header
+{
+    background-color: $secondary-color;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 42px;
+}
+.Logo
+{
+    text-decoration: none;
+
+}
+
+.user-Pic,.user-Pic img{
+    width: 38px;
+    height:38px;
+    border-radius: 50%;
+}

@@ -1,0 +1,16 @@
+@import "/src/Common/Color.scss";
+
+.Footer
+{
+    background-color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+}
+.Footer-title
+{
+    font-size: $font-primary;
+    font-weight: 500;
+}
